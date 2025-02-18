@@ -12,13 +12,14 @@ body {
   text-align: center;
   padding: 20px;
   background-image: url("./bonbon.png");
+  background-size: cover;
 }
 
 /* Container */
 .container {
   max-width: 800px;
   margin: 0 auto;
-
+height: 80vh;
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
