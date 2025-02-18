@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cookie Clicker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+        <div class="minicontainer">
+      <!-- <img src="./icone.gif" alt="nico" class="gif"><h1> Siara Clicker</h1></div> -->
+      <p>Collect as many Siaras as you can and upgrade your clicking power!</p>
+    </header>
+
+    <main>
+      <div class="stats">
+        <p><strong>Siara :</strong> <span id="cookieCount">0</span></p>
+        <p><strong>Siara per click:</strong> <span id="cookiesPerClick">1</span></p>
+      </div>
+
+      <div class="cookie" id="cookie"></div>
+
+      <div class="upgrades">
+        <div class="upgrade" id="upgrade1" data-cost="50" data-increment="1">
+          <p><strong>Upgrade 1</strong></p>
+          <p>+1 per click</p>
+          <p>Cost: <span>50</span></p>
+        </div>
+        <div class="upgrade" id="upgrade2" data-cost="200" data-increment="5">
+          <p><strong>Upgrade 2</strong></p>
+          <p>+5 per click</p>
+          <p>Cost: <span>200</span></p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>Created with ❤️ for fun!</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
