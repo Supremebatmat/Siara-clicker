@@ -11,7 +11,7 @@ body {
   color: #333;
   text-align: center;
   padding: 20px;
-  background-image: url("./croquettes\ marrons.png");
+  background-image: url("/fond\ girly.png");
 }
 
 /* Container */
@@ -21,7 +21,7 @@ body {
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  background-image: url("./fond\ ecran\ foret.png");
+  background-image: url("./bonbon.png");
   background-size: cover;
 }
 .minicontainer {
@@ -63,7 +63,7 @@ header p {
   width: 200px;
   height: 200px;
   margin: 20px auto;
-  background: url("./simba.jpg") no-repeat center;
+  background: url("./siara.jpg") no-repeat center;
   background-size: cover;
   cursor: pointer;
   border: 3px solid #ff9800;
